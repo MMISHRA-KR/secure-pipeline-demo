@@ -7,12 +7,11 @@ jobs:
   dependency-check:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-
-      - name: Run OWASP Dependency Check
+      - uses: actions/checkout@v3
+      - name: Run Dependency Check
         uses: jpwright/dependency-check-action@v3
         with:
           arguments: >
             --project "Secure Pipeline Demo"
             --scan .
+
