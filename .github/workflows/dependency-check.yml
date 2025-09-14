@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run Dependency Check
-        uses: jpwright/dependency-check-action@v3
+        uses: jpwright/dependency-check-action@v4
         with:
           arguments: >
             --project "Secure Pipeline Demo"
