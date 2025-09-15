@@ -1,24 +1,29 @@
-name: OWASP Dependency Check
+name: Dependency Vulnerability Scan
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:
+    branches:
+      - master
 
 jobs:
   dependency-check:
+    name: Run OWASP Dependency-Check
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-    - name: Run OWASP Dependency Check
-      uses: dependency-check/Dependency-Check_Action@v3.0.1
-      with:
-        arguments: >
-          --project "Secure Pipeline Demo"
-          --scan .
+      - name: Run Dependency-Check
+        uses: dependency-check/action@v3.0.0
+        with:
+          project: 'MyProject'
+          path: '.'
+          format: 'HTML'
+          failOnCVSS: '7.0'
 
+      - name: Upload Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: dependency-check-report
+          path: dependency-check-report.html
