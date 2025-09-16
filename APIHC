@@ -1,0 +1,15 @@
+// vulnerable.js
+
+const express = require('express');
+const app = express();
+
+// 🚨 Hardcoded secret – should trigger scan
+const API_KEY = '12345-abcdef-SECRET-KEY';
+
+app.get('/', (req, res) => {
+  res.send('API Key is: ' + API_KEY);
+});
+
+app.listen(3000, () => {
+  console.log('Server running on port 3000');
+});
