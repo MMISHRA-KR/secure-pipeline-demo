@@ -12,5 +12,10 @@
   "dependencies": {
     "express": "^5.1.0"
      "lodash": "4.17.20"
+"minimist": "0.0.8",           // CVE-2020-7598
+"jquery": "3.4.0",             // CVE-2020-11022
+"handlebars": "4.0.11",        // CVE-2019-19919
+"moment": "2.18.1"             // CVE-2017-18214
+
   }
 }
