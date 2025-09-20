@@ -1,0 +1,33 @@
+name: Multi-Environment Security Scan
+
+on:
+  push:
+    branches: [main, test, staging]
+  pull_request:
+    branches: [main, test, staging]
+
+jobs:
+  codeql-scan:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        environment: [test, staging]
+
+    name: CodeQL Scan - ${{ matrix.environment }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
+        with:
+          languages: ['javascript', 'python', 'java', 'csharp', 'go', 'cpp']  # Change to your language
+          config-file: .github/codeql-config.yml
+
+      - name: Run CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
+
+      - name: Upload SARIF Results
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: results/codeql.sarif
