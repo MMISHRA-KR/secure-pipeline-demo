@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        environment: [test, staging]
+        environment: [testing, staging]
 
     name: CodeQL Scan - ${{ matrix.environment }}
     environment: ${{ matrix.environment }}
