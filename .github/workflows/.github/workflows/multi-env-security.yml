@@ -2,9 +2,9 @@ name: Multi-Environment Security Scan
 
 on:
   push:
-    branches: [main, test, staging]
+    branches: [main, testing, staging]
   pull_request:
-    branches: [main, test, staging]
+    branches: [main, testing, staging]
 
 jobs:
   codeql-scan:
