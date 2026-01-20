@@ -1,0 +1,23 @@
+name: SonarCloud Scan
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  sonarcloud:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@v2
+        with:
+          args: >
+            -Dsonar.projectKey=secure-pipeline-demo
+            -Dsonar.organization=mmishra-kr
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
