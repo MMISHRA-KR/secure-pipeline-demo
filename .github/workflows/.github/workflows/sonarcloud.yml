@@ -21,4 +21,4 @@ jobs:
             -Dsonar.projectKey=MMISHRA-KR_codeql-scanner
             -Dsonar.organization=MMISHRA-KR
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
-
+            -Dsonar.qualitygate.wait=false
