@@ -18,6 +18,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v2
         with:
           args: >
-            -Dsonar.projectKey=secure-pipeline-demo
-            -Dsonar.organization=mmishra-kr
+            -Dsonar.projectKey=MMISHRA-KR_codeql-scanner
+            -Dsonar.organization=MMISHRA-KR
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+
