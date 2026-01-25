@@ -31,6 +31,6 @@ MIT
 # GH Repository This is a test update to confirm GitHub sync 
 # GH Repository This is a test update to confirm GitHub sync -SonarQube
 # GH Repository This is a test update to confirm GitHub sync -removing Qualitygates01
-
+<!-- Triggering Docker GHCR workflow -->
 
 
