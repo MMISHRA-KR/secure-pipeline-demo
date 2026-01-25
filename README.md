@@ -29,3 +29,8 @@ MIT
 ![CodeQL Scan](https://github.com/MMISHRA-IR/secure-pipeline-demo/actions/workflows/security-scans.yml/badge.svg)
 
 # GH Repository This is a test update to confirm GitHub sync 
+# GH Repository This is a test update to confirm GitHub sync -SonarQube
+# GH Repository This is a test update to confirm GitHub sync -removing Qualitygates01
+
+
+
