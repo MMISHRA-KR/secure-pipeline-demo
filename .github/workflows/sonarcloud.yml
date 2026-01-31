@@ -20,7 +20,8 @@ jobs:
           args: >
             -Dsonar.projectKey=MMISHRA-KR_codeql-scanner
             -Dsonar.organization=MMISHRA-KR
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
             -Dsonar.sources=.
             -Dsonar.qualitygate.wait=false
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
