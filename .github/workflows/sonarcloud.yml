@@ -20,10 +20,11 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=MMISHRA-KR_codeql-scanner
-            -Dsonar.organization=mmishra-kr   # <-- replace with your exact SonarCloud org key
+            -Dsonar.organization=mmishra-kr
             -Dsonar.sources=.
             -Dsonar.qualitygate.wait=false
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
 
 
