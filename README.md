@@ -30,7 +30,7 @@ MIT
 
 # GH Repository This is a test update to confirm GitHub sync 
 # GH Repository This is a test update to confirm GitHub sync -SonarQube
-# GH Repository This is a test update to confirm GitHub sync -removing Qualitygates01
+# GH Repository This is a test update to confirm GitHub sync -removing Qualitygates02
 # GH Repository - corrected workflow folder
 
 
