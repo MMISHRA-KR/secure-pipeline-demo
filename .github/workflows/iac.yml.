@@ -1,0 +1,16 @@
+name: Sample IaC Pipeline
+
+on:
+  workflow_dispatch:   # manual trigger
+
+jobs:
+  provision-infra:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run PowerShell DSC
+        shell: pwsh
+        run: |
+          ./iac-sample/provision.ps1
