@@ -36,5 +36,22 @@ MIT
 # Secure Pipeline Demo
 Testing SonarCloud workflow trigger 
 
+## Workflows
+
+### 1. IaC Provisioning (`iac.yml`)
+- Trigger: Manual (`workflow_dispatch`)
+- Action: Runs `provision.ps1` to create AD user/gMSA
+- Secrets: Uses `AD_USER`, `AD_PASS`
+
+### 2. Security Scan (`security-scan.yml`)
+- Trigger: On push to `main`
+- Action: Runs PSScriptAnalyzer + SonarCloud
+- Purpose: Ensure scripts meet coding/security standards
+
+### 3. Deployment (`deploy.yml`)
+- Trigger: On release tag
+- Action: Deploys infra/app to target environment
+
+
 
 
