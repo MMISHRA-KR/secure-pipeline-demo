@@ -10,7 +10,7 @@
 <!-- Professional Status Badges Row -->
 <p>
   <a href="https://github.com/MMISHRA-IR/secure-pipeline-demo/actions/workflows/security-scans.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/MMISHRA-IR/secure-pipeline-demo/security-scans.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=CodeQL%20Scan&labelColor=0D1117&color=00FF41" alt="CodeQL Scan" />
+    <img src="https://img.shields.io/github/actions/workflow/status/MMISHRA-IR/secure-pipeline-demo/security-scans.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=CodeQL%20Scan&labelColor=0D1117&color=00FF41" alt="CodeQL " />
   </a>
   <a href="https://sonarcloud.io/">
     <img src="https://img.shields.io/badge/SonarCloud-Passing-4EAA25?style=for-the-badge&logo=sonarcloud&logoColor=white&labelColor=0D1117" alt="SonarCloud" />
