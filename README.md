@@ -162,6 +162,7 @@ Testing SonarCloud workflow trigger
 <!--                              F O O T E R                                -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2088FF,100:00FF41&height=120&section=footer&text=Built%20with%20💚%20for%20the%20DevSecOps%20community&fontSize=18&fontColor=ffffff&animation=twinkling&fontAlignY=75" width="100%" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2088FF,100:00FF41&height=120&section=footer&text=Built%20with%20<img width="498" height="498" alt="HeartILoveYouGIF" src="https://github.com/user-attachments/assets/1d7fde4b-57fc-43c5-a099-f4293d3423ce" />
+%20for%20the%20DevSecOps%20community&fontSize=18&fontColor=ffffff&animation=twinkling&fontAlignY=75" width="100%" alt="Footer" />
 </div>
 
