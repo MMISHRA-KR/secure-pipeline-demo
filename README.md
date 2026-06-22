@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3500&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=🔐+Secure+Pipeline+Demo+💥;Automating+CI%2FCD+Security+🚀;Static+Analysis+%26+Secret+Scanning+🛡️;DevSecOps+Made+Simple+🔥" alt="Typing SVG" />
+</div>
+
+---
+
 # Secure Pipeline Demo
 
 A hands-on demo of integrating security into CI/CD pipelines using open-source tools.
