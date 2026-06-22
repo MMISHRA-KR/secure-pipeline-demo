@@ -44,8 +44,8 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                    B O N U S :  P I P E L I N E   D I A G R A M         -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<h2 align="center">📊 CI/CD Pipeline Flow</h2>
-<div align="center">
+<h2 align="left">
+<div align="left">
 
 # Secure Pipeline Demo
 
