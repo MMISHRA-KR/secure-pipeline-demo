@@ -46,8 +46,6 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <h2 align="center">📊 CI/CD Pipeline Flow</h2>
 <div align="center">
-Mermaid
-
 
 # Secure Pipeline Demo
 
