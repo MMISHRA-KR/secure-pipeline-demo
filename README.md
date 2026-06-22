@@ -1,6 +1,15 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3500&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=🔐+Secure+Pipeline+Demo+💥;Automating+CI%2FCD+Security+🚀;Static+Analysis+%26+Secret+Scanning+🛡️;DevSecOps+Made+Simple+🔥" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?..." />
 </div>
+
+<p align="center">
+  <b>🔐 CI/CD Security • ⚙️ Automation • 🛡️ DevSecOps Pipeline</b>
+</p>
+
+<p align="center">
+  <img src="badge1" />
+  <img src="badge2" />
+</p>
 
 ---
 
